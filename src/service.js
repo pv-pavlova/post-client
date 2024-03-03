@@ -1,6 +1,6 @@
 const fromStringToJson = (res) => res.json();
 
-const api = 'https://posts-server-production.up.railway.app';
+const api = 'https://post-server-production.up.railway.app';
 
 const throwError = (res) => {
     if (!res.errors) {
