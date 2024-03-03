@@ -1,0 +1,10 @@
+
+.itemTemplate {
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 8px 10px 8px;
+}
+
+.delete-cross {
+    color: red;
+}
