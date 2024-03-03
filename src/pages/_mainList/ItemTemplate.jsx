@@ -38,7 +38,7 @@ export const ItemTemplate = memo(({ categories, id, ...props}) => {
                 }
                 <div>{props.content}</div>
             </div>
-            <div className="shrink-0">
+            <div className="md:shrink-0">
                 <button
                     className="text-white bg-red-400 hover:bg-red-100 active:bg-red-700 rounded p-1 px-3 mr-4 transition-colors ease-linear"
                     onClick={useCallback(() => {
